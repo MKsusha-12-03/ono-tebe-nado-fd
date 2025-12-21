@@ -35,6 +35,7 @@
 .contacts__phone {
     margin-top: 1px;
 }
+
 .header__address-box {
    justify-self: end;  
     margin-top: 3px;
@@ -62,6 +63,7 @@
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 1;
 }
+
 .cover {
     position: relative;
     min-height: 757px;
@@ -194,9 +196,6 @@
     text-decoration: none;
     list-style: none;
     padding-bottom: auto ;
-    
-
-
 }
 
 .card_type_film {
@@ -204,8 +203,6 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    z-index: 2;
-
 }
 
 .card_type_book {
@@ -213,8 +210,6 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-   
-
 }
 
 .card_type_picture {
