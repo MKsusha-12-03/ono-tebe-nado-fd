@@ -6,6 +6,7 @@
     font-size: 18px;
     background-color: #ffffff;
     text-underline-offset: 3px; 
+
 }
 
 .header__links-list {
@@ -38,6 +39,7 @@
 }
 
 .header__address-box {
+
     justify-self: end;  
     margin-top: 3px;
     margin-left: 5px;
@@ -163,7 +165,7 @@
 .lots__card-list {
     list-style: none;
     display: flex;
-    gap: 25px;   
+    gap: 25px;
 }
 
 .lots__card-list-item {
@@ -248,7 +250,7 @@
     margin: 70px 30px;
     padding: 31px 10px;
     margin-bottom: 25px;
-    text-underline-offset: 4px;  
+    text-underline-offset: 4px;
 }
 
 .about {
@@ -306,7 +308,7 @@
     margin-bottom: 80px;
 }
 
-.address { 
+.address {
     line-height: 24.3px;
     margin-top: 5px;
     font-style: normal;
@@ -324,7 +326,7 @@
   
   display: flex;
   flex-direction: column;
-  text-align: center; 
+  text-align: center;
 }
 
 .footer__menu-list {
