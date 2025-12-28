@@ -27,28 +27,16 @@
       <a class="logo-header">
         <img src="images/logo-black.svg" alt="логотип" />
       </a>
-      <address class="address-block__header">
-        <ul class="header__address">
-          <li>
-            <a href="tel:+99995555555" class="address-block__link"
-              >+9 999 555 5555</a
-            >
-          </li>
-          <li>
-            <a href="mailto:info@sobaka.ge"> info@sobaka.ge
-              </a>
-          </li>
-          <li>
+      <address class="address-block address-block_header">
+            <a href="tel:+99995555555" class="address-block__link">+9 999 555 5555</a> 
+            <a href="mailto:info@sobaka.ge" class="address-block__link"> info@sobaka.ge </a>
             <a href="#" class="address-block__item"
               >наб. Принсенграхт 263-265,&shy; Амстердам</a
             >
-          </li>
-        </ul>
       </address>
     </header>
     <main>
       <section class="cover">
-      
         <h1 class="cover__title aligned-text">
           <span class="aligned-text_left letter-spacing-extended">Оно</span>
           <span class="aligned-text_center letter-spacing-extended">тебе</span>
@@ -56,7 +44,7 @@
         </h1>
         <div class="cover__description">
           <p>Аукцион вещей, в которые никто не верил</p>
-          <span><button class="bet-button">сделать ставку</button></span>
+          <button class="bet-button">сделать ставку</button>
         </div>
         <div class="overlay"></div>
       </section>
@@ -64,10 +52,12 @@
         <h2 class="lots__heading">лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
-            <a href="#" class="card-link" >
-              <article class="card card_type_film ">
+            <a href="#" class="card-link">
+              <article class="card card_type_film">
                 <div class="overlay"></div>
-                <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
+                <h3 class="card__title">
+                  Фильм режиссёра, который бросил киношколу
+                </h3>
                 <p class="card__text">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                   ставка, если бы вы не знали, что режиссёр — Пол Томас
@@ -77,8 +67,8 @@
             </a>
           </li>
           <li class="lots__card-list-item">
-            <a href="#" class="card-link" >
-              <article class="card card_type_book ">
+            <a href="#" class="card-link">
+              <article class="card card_type_book">
                 <div class="overlay"></div>
                 <h3 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
@@ -95,7 +85,7 @@
             </a>
           </li>
           <li class="lots__card-list-item">
-            <a href="#" class="card-link" >
+            <a href="#" class="card-link">
               <article class="card card_type_picture">
                 <div class="overlay"></div>
                 <h3 class="card__title">
@@ -111,20 +101,23 @@
             </a>
           </li>
         </ul>
-        
+
         <a href="#" class="lots__look-more-link">посмотреть больше</a>
       </section>
-    
 
       <section class="about">
         <div class="about__column">
           <div class="logo-about">
-            <img  class="about__logo-image" src="images/logo-white.svg" alt="логотип">
+            <img
+              class="about__logo-image"
+              src="images/logo-white.svg"
+              alt="логотип"
+            />
           </div>
         </div>
-          <article>
-            <h2 class="about-title">Об аукционе</h2>
-            <div class="about-text">
+        <article>
+          <h2 class="about-title">Об аукционе</h2>
+          <div class="about-text">
             <p>
               Здесь вы не встретите очередное пафосное собрание невероятно
               дорогого антиквариата. Наши лоты вообще не должны были попасть ни
@@ -141,23 +134,25 @@
               вещи не верил никто, продолжали верить их создатели. И сейчас эти
               лоты стали культовыми.
             </p>
-            </div>
-          </article>
+          </div>
+        </article>
       </section>
     </main>
 
     <footer class="footer">
-      <address class="address">
-        <a href="tel:+99995555555" class="address-item__footer">+9 999 555 5555</a>
-        <a href="mailto:info@sobaka.ge" class="address-link__footer">info@sobaka.ge</a>
-        <a href="#" class="address-text__footer"
-              >наб. Принсенграхт 263-265, Амстердам</a
-            >
+      <address class="address-block address-block_footer">
+        <a href="tel:+99995555555" class="address-block__item">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge" class="address-block__link">info@sobaka.ge</a>
+        <a href="#" class="address-block__item"
+          >наб. Принсенграхт 263-265, Амстердам</a
+        >
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
-            <a href="#" class="footer__menu-link footer__menu-link_active">главная</a>
+            <a href="#" class="footer__menu-link footer__menu-link_active"
+              >главная</a
+            >
           </li>
           <li class="footer__menu-list-item">
             <a href="#" class="footer__menu-link">посмотреть лоты</a>
@@ -168,16 +163,24 @@
         </ul>
       </nav>
 
-
       <ul class="footer__social-list">
         <li class="footer__social-list-item">
-          <a href="#" class="footer__social-link"><img class="footer__social-icon" src="images/yt.svg" alt="youtube" /></a>
+          <a href="#" class="footer__social-link"
+            ><img class="footer__social-icon" src="images/yt.svg" alt="youtube"
+          /></a>
         </li>
         <li class="footer__social-list-item">
-          <a href="#" class="footer__social-link"><img class="footer__social-icon" src="images/vk.svg" alt="vk" /></a>
+          <a href="#" class="footer__social-link"
+            ><img class="footer__social-icon" src="images/vk.svg" alt="vk"
+          /></a>
         </li>
         <li class="footer__social-list-item">
-          <a href="#" class="footer__social-link"><img class="footer__social-icon" src="images/pinterest.svg" alt="pinterest"  /></a>
+          <a href="#" class="footer__social-link"
+            ><img
+              class="footer__social-icon"
+              src="images/pinterest.svg"
+              alt="pinterest"
+          /></a>
         </li>
       </ul>
     </footer>
